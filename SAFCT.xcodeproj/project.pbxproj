@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		500E153E21DCBB8A00C5FA7D /* PlistOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E153D21DCBB8A00C5FA7D /* PlistOperator.m */; };
+		500E158A21E1E53300C5FA7D /* Folder.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E158721E1E53300C5FA7D /* Folder.m */; };
+		500E158B21E1E53300C5FA7D /* GetTimeDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E158921E1E53300C5FA7D /* GetTimeDay.m */; };
+		500E158E21E242EB00C5FA7D /* SerialPortTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 500E158D21E242EB00C5FA7D /* SerialPortTool.m */; };
+		5048EA3121DC572800B51EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5048EA3021DC572800B51EC6 /* Foundation.framework */; };
+		5048EA3321DC572800B51EC6 /* CoreTestFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5048EA3221DC572800B51EC6 /* CoreTestFoundation.framework */; };
+		5048EA3C21DC572800B51EC6 /* SAFCT.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA3B21DC572800B51EC6 /* SAFCT.m */; };
+		5048EA3E21DC572800B51EC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5048EA3D21DC572800B51EC6 /* Images.xcassets */; };
+		5048EA4421DC572800B51EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5048EA3021DC572800B51EC6 /* Foundation.framework */; };
+		5048EA4521DC572800B51EC6 /* CoreTestFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5048EA3221DC572800B51EC6 /* CoreTestFoundation.framework */; };
+		5048EA4C21DC572800B51EC6 /* ___VARIABLE_className___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA4B21DC572800B51EC6 /* ___VARIABLE_className___Tests.m */; };
+		5048EA6A21DC577F00B51EC6 /* Communication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA5621DC577F00B51EC6 /* Communication.m */; };
+		5048EA6B21DC577F00B51EC6 /* Function.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA5921DC577F00B51EC6 /* Function.m */; };
+		5048EA6C21DC577F00B51EC6 /* ORSSerialBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA5C21DC577F00B51EC6 /* ORSSerialBuffer.m */; };
+		5048EA6D21DC577F00B51EC6 /* ORSSerialPacketDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA5E21DC577F00B51EC6 /* ORSSerialPacketDescriptor.m */; };
+		5048EA6E21DC577F00B51EC6 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA6021DC577F00B51EC6 /* ORSSerialPort.m */; };
+		5048EA6F21DC577F00B51EC6 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA6221DC577F00B51EC6 /* ORSSerialPortManager.m */; };
+		5048EA7021DC577F00B51EC6 /* ORSSerialRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA6421DC577F00B51EC6 /* ORSSerialRequest.m */; };
+		5048EA7221DC577F00B51EC6 /* WDSyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA6921DC577F00B51EC6 /* WDSyncSocket.m */; };
+		5048EA7521DC983200B51EC6 /* MainBoardComands.m in Sources */ = {isa = PBXBuildFile; fileRef = 5048EA7421DC983200B51EC6 /* MainBoardComands.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5048EA4621DC572800B51EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5048EA2521DC572800B51EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5048EA2C21DC572800B51EC6;
+			remoteInfo = SAFCT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		500E153C21DCBB8A00C5FA7D /* PlistOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistOperator.h; sourceTree = "<group>"; };
+		500E153D21DCBB8A00C5FA7D /* PlistOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistOperator.m; sourceTree = "<group>"; };
+		500E158621E1E53300C5FA7D /* Folder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Folder.h; sourceTree = "<group>"; };
+		500E158721E1E53300C5FA7D /* Folder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Folder.m; sourceTree = "<group>"; };
+		500E158821E1E53300C5FA7D /* GetTimeDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTimeDay.h; sourceTree = "<group>"; };
+		500E158921E1E53300C5FA7D /* GetTimeDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTimeDay.m; sourceTree = "<group>"; };
+		500E158C21E242EB00C5FA7D /* SerialPortTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialPortTool.h; sourceTree = "<group>"; };
+		500E158D21E242EB00C5FA7D /* SerialPortTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialPortTool.m; sourceTree = "<group>"; };
+		5048EA2D21DC572800B51EC6 /* SAFCT.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAFCT.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5048EA3021DC572800B51EC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5048EA3221DC572800B51EC6 /* CoreTestFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTestFoundation.framework; path = Library/Frameworks/CoreTestFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		5048EA3621DC572800B51EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5048EA3A21DC572800B51EC6 /* SAFCT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAFCT.h; sourceTree = "<group>"; };
+		5048EA3B21DC572800B51EC6 /* SAFCT.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAFCT.m; sourceTree = "<group>"; };
+		5048EA3D21DC572800B51EC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5048EA4321DC572800B51EC6 /* SAFCTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAFCTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5048EA4A21DC572800B51EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5048EA4B21DC572800B51EC6 /* ___VARIABLE_className___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___VARIABLE_className___Tests.m"; sourceTree = "<group>"; };
+		5048EA5521DC577F00B51EC6 /* Communication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communication.h; sourceTree = "<group>"; };
+		5048EA5621DC577F00B51EC6 /* Communication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communication.m; sourceTree = "<group>"; };
+		5048EA5821DC577F00B51EC6 /* Function.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Function.h; sourceTree = "<group>"; };
+		5048EA5921DC577F00B51EC6 /* Function.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Function.m; sourceTree = "<group>"; };
+		5048EA5B21DC577F00B51EC6 /* ORSSerialBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialBuffer.h; sourceTree = "<group>"; };
+		5048EA5C21DC577F00B51EC6 /* ORSSerialBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialBuffer.m; sourceTree = "<group>"; };
+		5048EA5D21DC577F00B51EC6 /* ORSSerialPacketDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPacketDescriptor.h; sourceTree = "<group>"; };
+		5048EA5E21DC577F00B51EC6 /* ORSSerialPacketDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPacketDescriptor.m; sourceTree = "<group>"; };
+		5048EA5F21DC577F00B51EC6 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		5048EA6021DC577F00B51EC6 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		5048EA6121DC577F00B51EC6 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		5048EA6221DC577F00B51EC6 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		5048EA6321DC577F00B51EC6 /* ORSSerialRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialRequest.h; sourceTree = "<group>"; };
+		5048EA6421DC577F00B51EC6 /* ORSSerialRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialRequest.m; sourceTree = "<group>"; };
+		5048EA6821DC577F00B51EC6 /* WDSyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDSyncSocket.h; sourceTree = "<group>"; };
+		5048EA6921DC577F00B51EC6 /* WDSyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDSyncSocket.m; sourceTree = "<group>"; };
+		5048EA7321DC983200B51EC6 /* MainBoardComands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBoardComands.h; sourceTree = "<group>"; };
+		5048EA7421DC983200B51EC6 /* MainBoardComands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBoardComands.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5048EA2A21DC572800B51EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5048EA3321DC572800B51EC6 /* CoreTestFoundation.framework in Frameworks */,
+				5048EA3121DC572800B51EC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5048EA4021DC572800B51EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5048EA4521DC572800B51EC6 /* CoreTestFoundation.framework in Frameworks */,
+				5048EA4421DC572800B51EC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		500E158521E1E53300C5FA7D /* File */ = {
+			isa = PBXGroup;
+			children = (
+				500E158621E1E53300C5FA7D /* Folder.h */,
+				500E158721E1E53300C5FA7D /* Folder.m */,
+				500E158821E1E53300C5FA7D /* GetTimeDay.h */,
+				500E158921E1E53300C5FA7D /* GetTimeDay.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		5048EA2421DC572800B51EC6 = {
+			isa = PBXGroup;
+			children = (
+				5048EA3421DC572800B51EC6 /* SAFCT */,
+				5048EA4821DC572800B51EC6 /* SAFCTTests */,
+				5048EA2F21DC572800B51EC6 /* Frameworks */,
+				5048EA2E21DC572800B51EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5048EA2E21DC572800B51EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5048EA2D21DC572800B51EC6 /* SAFCT.bundle */,
+				5048EA4321DC572800B51EC6 /* SAFCTTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5048EA2F21DC572800B51EC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5048EA3021DC572800B51EC6 /* Foundation.framework */,
+				5048EA3221DC572800B51EC6 /* CoreTestFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5048EA3421DC572800B51EC6 /* SAFCT */ = {
+			isa = PBXGroup;
+			children = (
+				500E158521E1E53300C5FA7D /* File */,
+				500E153C21DCBB8A00C5FA7D /* PlistOperator.h */,
+				500E153D21DCBB8A00C5FA7D /* PlistOperator.m */,
+				5048EA7321DC983200B51EC6 /* MainBoardComands.h */,
+				5048EA7421DC983200B51EC6 /* MainBoardComands.m */,
+				5048EA5521DC577F00B51EC6 /* Communication.h */,
+				5048EA5621DC577F00B51EC6 /* Communication.m */,
+				5048EA5721DC577F00B51EC6 /* Function */,
+				5048EA5A21DC577F00B51EC6 /* Serialport */,
+				5048EA6721DC577F00B51EC6 /* socket */,
+				5048EA3A21DC572800B51EC6 /* SAFCT.h */,
+				5048EA3B21DC572800B51EC6 /* SAFCT.m */,
+				5048EA3D21DC572800B51EC6 /* Images.xcassets */,
+				5048EA3521DC572800B51EC6 /* Supporting Files */,
+			);
+			path = SAFCT;
+			sourceTree = "<group>";
+		};
+		5048EA3521DC572800B51EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5048EA3621DC572800B51EC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5048EA4821DC572800B51EC6 /* SAFCTTests */ = {
+			isa = PBXGroup;
+			children = (
+				5048EA4B21DC572800B51EC6 /* ___VARIABLE_className___Tests.m */,
+				5048EA4921DC572800B51EC6 /* Supporting Files */,
+			);
+			path = SAFCTTests;
+			sourceTree = "<group>";
+		};
+		5048EA4921DC572800B51EC6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5048EA4A21DC572800B51EC6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5048EA5721DC577F00B51EC6 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				5048EA5821DC577F00B51EC6 /* Function.h */,
+				5048EA5921DC577F00B51EC6 /* Function.m */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		5048EA5A21DC577F00B51EC6 /* Serialport */ = {
+			isa = PBXGroup;
+			children = (
+				500E158C21E242EB00C5FA7D /* SerialPortTool.h */,
+				500E158D21E242EB00C5FA7D /* SerialPortTool.m */,
+				5048EA5B21DC577F00B51EC6 /* ORSSerialBuffer.h */,
+				5048EA5C21DC577F00B51EC6 /* ORSSerialBuffer.m */,
+				5048EA5D21DC577F00B51EC6 /* ORSSerialPacketDescriptor.h */,
+				5048EA5E21DC577F00B51EC6 /* ORSSerialPacketDescriptor.m */,
+				5048EA5F21DC577F00B51EC6 /* ORSSerialPort.h */,
+				5048EA6021DC577F00B51EC6 /* ORSSerialPort.m */,
+				5048EA6121DC577F00B51EC6 /* ORSSerialPortManager.h */,
+				5048EA6221DC577F00B51EC6 /* ORSSerialPortManager.m */,
+				5048EA6321DC577F00B51EC6 /* ORSSerialRequest.h */,
+				5048EA6421DC577F00B51EC6 /* ORSSerialRequest.m */,
+			);
+			path = Serialport;
+			sourceTree = "<group>";
+		};
+		5048EA6721DC577F00B51EC6 /* socket */ = {
+			isa = PBXGroup;
+			children = (
+				5048EA6821DC577F00B51EC6 /* WDSyncSocket.h */,
+				5048EA6921DC577F00B51EC6 /* WDSyncSocket.m */,
+			);
+			path = socket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5048EA2C21DC572800B51EC6 /* SAFCT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5048EA4F21DC572800B51EC6 /* Build configuration list for PBXNativeTarget "SAFCT" */;
+			buildPhases = (
+				5048EA2921DC572800B51EC6 /* Sources */,
+				5048EA2A21DC572800B51EC6 /* Frameworks */,
+				5048EA2B21DC572800B51EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAFCT;
+			productName = SAFCT;
+			productReference = 5048EA2D21DC572800B51EC6 /* SAFCT.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		5048EA4221DC572800B51EC6 /* SAFCTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5048EA5221DC572800B51EC6 /* Build configuration list for PBXNativeTarget "SAFCTTests" */;
+			buildPhases = (
+				5048EA3F21DC572800B51EC6 /* Sources */,
+				5048EA4021DC572800B51EC6 /* Frameworks */,
+				5048EA4121DC572800B51EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5048EA4721DC572800B51EC6 /* PBXTargetDependency */,
+			);
+			name = SAFCTTests;
+			productName = SAFCTTests;
+			productReference = 5048EA4321DC572800B51EC6 /* SAFCTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5048EA2521DC572800B51EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = piaoxu;
+				TargetAttributes = {
+					5048EA2C21DC572800B51EC6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					5048EA4221DC572800B51EC6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5048EA2821DC572800B51EC6 /* Build configuration list for PBXProject "SAFCT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5048EA2421DC572800B51EC6;
+			productRefGroup = 5048EA2E21DC572800B51EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5048EA2C21DC572800B51EC6 /* SAFCT */,
+				5048EA4221DC572800B51EC6 /* SAFCTTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5048EA2B21DC572800B51EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5048EA3E21DC572800B51EC6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5048EA4121DC572800B51EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5048EA2921DC572800B51EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5048EA6B21DC577F00B51EC6 /* Function.m in Sources */,
+				5048EA6A21DC577F00B51EC6 /* Communication.m in Sources */,
+				5048EA7021DC577F00B51EC6 /* ORSSerialRequest.m in Sources */,
+				5048EA6D21DC577F00B51EC6 /* ORSSerialPacketDescriptor.m in Sources */,
+				5048EA6E21DC577F00B51EC6 /* ORSSerialPort.m in Sources */,
+				5048EA7521DC983200B51EC6 /* MainBoardComands.m in Sources */,
+				5048EA7221DC577F00B51EC6 /* WDSyncSocket.m in Sources */,
+				500E158B21E1E53300C5FA7D /* GetTimeDay.m in Sources */,
+				5048EA6C21DC577F00B51EC6 /* ORSSerialBuffer.m in Sources */,
+				500E158A21E1E53300C5FA7D /* Folder.m in Sources */,
+				500E158E21E242EB00C5FA7D /* SerialPortTool.m in Sources */,
+				5048EA6F21DC577F00B51EC6 /* ORSSerialPortManager.m in Sources */,
+				500E153E21DCBB8A00C5FA7D /* PlistOperator.m in Sources */,
+				5048EA3C21DC572800B51EC6 /* SAFCT.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5048EA3F21DC572800B51EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5048EA4C21DC572800B51EC6 /* ___VARIABLE_className___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5048EA4721DC572800B51EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5048EA2C21DC572800B51EC6 /* SAFCT */;
+			targetProxy = 5048EA4621DC572800B51EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5048EA4D21DC572800B51EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5048EA4E21DC572800B51EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5048EA5021DC572800B51EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/AppleInternal/Library/Frameworks,
+				);
+				INFOPLIST_FILE = SAFCT/Info.plist;
+				INSTALL_PATH = $HOME/Library/Atlas/Plugins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5048EA5121DC572800B51EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/AppleInternal/Library/Frameworks,
+				);
+				INFOPLIST_FILE = SAFCT/Info.plist;
+				INSTALL_PATH = $HOME/Library/Atlas/Plugins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = NO;
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5048EA5321DC572800B51EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/AppleInternal/Library/Frameworks,
+				);
+				INFOPLIST_FILE = SAFCTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5048EA5421DC572800B51EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					/AppleInternal/Library/Frameworks,
+				);
+				INFOPLIST_FILE = SAFCTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5048EA2821DC572800B51EC6 /* Build configuration list for PBXProject "SAFCT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5048EA4D21DC572800B51EC6 /* Debug */,
+				5048EA4E21DC572800B51EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5048EA4F21DC572800B51EC6 /* Build configuration list for PBXNativeTarget "SAFCT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5048EA5021DC572800B51EC6 /* Debug */,
+				5048EA5121DC572800B51EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5048EA5221DC572800B51EC6 /* Build configuration list for PBXNativeTarget "SAFCTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5048EA5321DC572800B51EC6 /* Debug */,
+				5048EA5421DC572800B51EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5048EA2521DC572800B51EC6 /* Project object */;
+}
