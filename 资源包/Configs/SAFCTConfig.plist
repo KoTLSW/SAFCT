@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>baud</key>
+		<integer>115200</integer>
+		<key>unitCounts</key>
+		<string>2</string>
+		<key>SNUart</key>
+		<string>uart:///dev/cu.usbserial-FIXA</string>
+		<key>humAndTempUart</key>
+		<string>uart:///dev/cu.usbserial-EW-HUMIT</string>
+		<key>fixtureUart</key>
+		<string>uart:///dev/cu.usbserial-FIXMB</string>
+		<key>pressUart</key>
+		<string>uart:///dev/cu.usbserial-FIXP</string>
+		<key>ip</key>
+		<string>169.254.1.32</string>
+		<key>port</key>
+		<string>7600</string>
+		<key>unitID</key>
+		<string>unit1</string>
+		<key>debug</key>
+		<string>NO</string>
+		<key>DataPath</key>
+		<string>/vault/Atlas/SAFCT</string>
+	</dict>
+	<dict>
+		<key>baud</key>
+		<integer>115200</integer>
+		<key>unitCounts</key>
+		<string>2</string>
+		<key>SNUart</key>
+		<string>uart:///dev/cu.usbserial-FIXA</string>
+		<key>humAndTempUart</key>
+		<string>uart:///dev/cu.usbserial-EW-HUMIT</string>
+		<key>ip</key>
+		<string>169.254.1.32</string>
+		<key>port</key>
+		<string>7600</string>
+		<key>unitID</key>
+		<string>unit2</string>
+		<key>debug</key>
+		<string>NO</string>
+		<key>DataPath</key>
+		<string>/vault/Atlas/SAFCT</string>
+	</dict>
+</array>
+</plist>
