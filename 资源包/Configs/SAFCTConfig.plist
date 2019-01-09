@@ -36,7 +36,7 @@
 		<key>humAndTempUart</key>
 		<string>uart:///dev/cu.usbserial-EW-HUMIT</string>
 		<key>ip</key>
-		<string>169.254.1.32</string>
+		<string>169.254.1.33</string>
 		<key>port</key>
 		<string>7600</string>
 		<key>unitID</key>
